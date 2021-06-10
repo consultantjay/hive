@@ -1,7 +1,8 @@
-'''
+
 
 Example:
 
+<code> 
 CREATE TABLE test_change (a int, b int, c int);
  
 <B>  First change column a's name to a1.</B>
@@ -18,6 +19,7 @@ ALTER TABLE test_change CHANGE c c1 INT FIRST;
   
 <B>  Add a comment to column a1</B>
 ALTER TABLE test_change CHANGE a1 a1 INT COMMENT 'this is column a1';
-'''
+</code>
+
 
 
